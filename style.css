@@ -1,3 +1,11 @@
+.birthstone-regular {
+  font-family: "Birthstone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 /* Basic reset */
 * {
     margin: 0;
@@ -14,7 +22,7 @@ body {
 
 /* Header */
 header {
-    padding: 50px 20px;
+    padding: 20px 10px;
     background-color: #b2c7ae;
     border-style: solid;
     border-color: #015028;
@@ -27,9 +35,10 @@ header {
 header h1 {
     color: #fff;
     text-align: center;
-    font-size: 4em;
+    font-size: 80px;
     border: 4px solid #008040;
     border-radius: 5px;
+    font-family: birthstone;
 }
 
 nav ul {
@@ -37,7 +46,6 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 10px 0;
 }
 
 nav ul li {
@@ -287,4 +295,67 @@ footer p {
 
 
 
+.menunav ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
 
+}
+
+.menunav ul li {
+    margin: 0 10px;
+}
+
+.menunav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.menunav ul li a:hover {
+    color: #00810b;
+}
+
+.menunav ul li:not(:last-child)::after {
+  content: '|';  /* Add the "|" symbol */
+  margin-left: 10px;  /* Space between the item and the line */
+}
+
+#appertizers h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menutital{
+    color: #00810b;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.menuitem{
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.menuhr{
+    alignment: center;
+ width: 80%;
+  height: 4px;
+   background-color: #000; 
+  border: none;            
+  margin: 20px auto;  
+
+}
+
+.foodhr{
+    width: 100%;
+     height: 2px;
+   background-color: #000;
+
+
+}
