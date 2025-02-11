@@ -39,29 +39,12 @@ header h1 {
     font-family: birthstone-regular;
 }
 
-nav ul {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 40px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2em;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #00810b;
+.nav-pills .nav-link.active {
+    background-color: #008040; /* Change this to your desired green color */
 }
 
 
+s
 #home {
     padding: 50px 20px;
     background-color: #b2c7ae;
@@ -74,25 +57,16 @@ nav ul li a:hover {
 }
 
 #home h2 {
-    font-size: 3em;
-    text-align: left;
-    width: 450px;
-    word-wrap: break-word;
+   
 
 }
 
 #home p {
-    font-size: 1.5em;
-    margin-top: 10px;
-    text-align: left;
-    width: 550px;
-    word-wrap: break-word;
+    
 }
 
 .image-right {
-      width: 200px; 
-      height: auto; 
-    border: 3px solid black;
+   
 }
 
 #menu {
@@ -189,7 +163,7 @@ nav ul li a:hover {
 .box { 
     margin-left: 20px;
     margin-right: 20px;
-    display: flex; ]
+    display: flex; 
     justify-content: space-between; 
 }
 
@@ -388,7 +362,7 @@ margin-right: 50px;
 
 #story p{
     text-align: left;
-    font-size 10px;
+    font-size:10px;
 }
 
 .bcard{
