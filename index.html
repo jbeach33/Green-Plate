@@ -12,7 +12,12 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 .nav-pills .nav-link.active {
     background-color: #008040; 
@@ -25,29 +30,29 @@
 <body>
 
 
-    <div class="container-fluid">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="images/logo.png" width="110px" height="105px" alt="">
-            <span class="fs-1 m-3">The Green Plate</span>
-          </a>
-    
-          <ul class="nav nav-pills m-5">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" >Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="color: #008040; ">Menu</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="color: #008040;">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="color: #008040;">Refrencs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="color: #008040;">Contact</a></li>
-          </ul>
+    <div class="container-fluid menunav">
+        <header class="d-flex flex-wrap justify-content-between align-items-center py-1 m-0">
+          <div class="d-flex align-items-center">
+            <img src="images/logo.png" width="70px" height="65px" alt="">
+            <span class="fs-2 m-2 sigmar-regular">The Green Plate</span>
+          </div>
+          <nav>
+            <ul class="nav nav-pills m-2">
+              <li class="nav-item"><a href="#" class="nav-link active ptext" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ptext" style="color: #008040;">Menu</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ptext" style="color: #008040;">About Us</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ptext" style="color: #008040;">Refrencs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ptext" style="color: #008040;">Contact</a></li>
+            </ul>
+          </nav>
         </header>
-      </div>
+    </div>
     
-    
 
 
 
 
-    
+    <br style="height: 500px;">
     <div class="d-flex justify-content-center align-items-center " style="margin-top: 40px; margin-left: 200px; margin-right: 200px;">
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -100,14 +105,14 @@
 
 
 
-<section id="home" class="py-5">
+<section id="menu" class="py-3">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-7 text-md-start text-center text-wrap text-break">
                 <div class="m-3">
-                    <h2 class="fw-bold">Welcome to The Green Plate</h2>
+                    <h2 class="header1">Welcome to The Green Plate</h2>
                     <hr style="width: 80%; height: 4px; background-color: #000;">
-                    <p class="lead">
+                    <p class="ptext">
                         The best place to find high-quality plant-based meals! We are always looking for new customers and can't wait for you to stop by and try our delicious and fresh foods, prepared daily. Open to vegans, non-vegans, and anyone looking for fresh, quality food.
                     </p>
                 </div>
@@ -126,12 +131,12 @@
 
     <section id="menu">
         <div class="container">
-            <h2>Menu</h2>
+            <h2 class="header1">Menu</h2>
             <hr class="menuhr">
-            <p class="menu-text">Check out our large variety of vegan foods that we locally source and prepare fresh every day! We always find the freshest produce and goods from the local area to make the best tasting and highest quality vegan food that you will ever try! Check out our menu below, with different specials rotating every week.</p>
+            <p class="ptext">Check out our large variety of vegan foods that we locally source and prepare fresh every day! We always find the freshest produce and goods from the local area to make the best tasting and highest quality vegan food that you will ever try! Check out our menu below, with different specials rotating every week.</p>
             <div style="width: 100%; text-align: center;">
                 
-                <button onclick="window.location.href='menu.html'" class="menu-button">Menu</button>
+                <button onclick="window.location.href='menu.html'" class="menu-button ptext">Menu</button>
             </div>
 
              
@@ -163,14 +168,14 @@
 
     <section id="about">
         <div class="container">
-            <h2>About Us</h2>
+            <h2 class="header1">About Us</h2>
             <hr class="menuhr">
-            <p>At The Green Plate, we are passionate about serving fresh, healthy, and delicious vegan meals. Our menu
+            <p class="ptext">At The Green Plate, we are passionate about serving fresh, healthy, and delicious vegan meals. Our menu
                 is carefully crafted to offer a variety of plant-based options for everyone to enjoy, whether you're
                 vegan or just looking to try something new!</p>
         </div>
         <div style="width: 100%; text-align: center;">
-        <button onclick="window.location.href='about.html'" class="menu-button">About</button>
+        <button onclick="window.location.href='about.html'" class="menu-button ptext">About</button>
         </div>
 
     </section>
@@ -180,7 +185,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
-                    <h2 class="fw-bold">What our customers say about us...</h2>
+                    <h2 class="header1">What our customers say about us...</h2>
                 </div>
             </div>
         </div>
@@ -190,16 +195,16 @@
 
     <div class="box">
         <div class="part part1">
-            <h2>Robbie Carl</h2>
-            <p>The Green Plate is an absolute gem! The food is not only delicious but bursting with flavor – I highly recommend the Mushroom & Spinach Risotto and Cauliflower Wings. The cozy atmosphere and friendly staff make it the perfect place for anyone looking for a satisfying and healthy vegan meal.</p>
+            <h2 class="header1">Robbie Carl</h2>
+            <p class="ptext">The Green Plate is an absolute gem! The food is not only delicious but bursting with flavor – I highly recommend the Mushroom & Spinach Risotto and Cauliflower Wings. The cozy atmosphere and friendly staff make it the perfect place for anyone looking for a satisfying and healthy vegan meal.</p>
         </div>
         <div class="part part2">
-            <h2>Kegan Cavan</h2>
-            <p>The Green Plate exceeded all my expectations with its creative and flavorful vegan dishes! The BBQ Jackfruit Tacos were a standout, and the Raw Chocolate Avocado Mousse was the perfect indulgence to finish the meal. Great atmosphere, attentive staff, and incredible food – I’ll definitely be back!</p>
+            <h2 class="header1">Kegan Cavan</h2>
+            <p class="ptext">The Green Plate exceeded all my expectations with its creative and flavorful vegan dishes! The BBQ Jackfruit Tacos were a standout, and the Raw Chocolate Avocado Mousse was the perfect indulgence to finish the meal. Great atmosphere, attentive staff, and incredible food – I’ll definitely be back!</p>
         </div>
         <div class="part part3">
-            <h2> Ruth Calanthe </h2>
-            <p>I had an amazing experience at The Green Plate, with every dish being fresh and packed with flavor. The Cauliflower Wings were a delicious start, and the Mushroom & Spinach Risotto was creamy and comforting. The only reason I didn’t give 5 stars is because the portions were a bit smaller than expected, but I’ll definitely return for more!</p>
+            <h2 class="header1"> Ruth Calanthe </h2>
+            <p class="ptext">I had an amazing experience at The Green Plate, with every dish being fresh and packed with flavor. The Cauliflower Wings were a delicious start, and the Mushroom & Spinach Risotto was creamy and comforting. The only reason I didn’t give 5 stars is because the portions were a bit smaller than expected, but I’ll definitely return for more!</p>
         </div>
     </div>
 
@@ -208,23 +213,33 @@
     <section id="contact">
             <div class="row">
                 <div class="col-4">
-            <h2>Contact Us</h2>
-            <p>Email: contact@greenplate.com</p>
-            <p>Phone: (212) 224-3163</p>
-            <p>Address: 125 Shinn Street, Manhattan, NY</p>
+            <h2 class="header1">Contact Us</h2>
+            <p class="ptext">Email: contact@greenplate.com</p>
+            <p class="ptext">Phone: (212) 224-3163</p>
+            <p class="ptext">Address: 125 Shinn Street, Manhattan, NY</p>
         </div>
         <div class="col-4 menu-items">
-            <h2>Hours</h2>
-            <p>Monday-Thursday: 1 P.M.- 9 P.M.</p>
-            <p>Friday: 3 P.M. - 9 P.M.</p>
-            <p>Saturday: 10 A.M. - 7 P.M. </p>
-            <p>Sunday: 10 A.M. - 9 P.M.</p> 
+            <h2 class="header1">Hours</h2>
+            <p class="ptext">Monday-Thursday: 1 P.M.- 9 P.M.</p>
+            <p class="ptext">Friday: 3 P.M. - 9 P.M.</p>
+            <p class="ptext">Saturday: 10 A.M. - 7 P.M. </p>
+            <p class="ptext">Sunday: 10 A.M. - 9 P.M.</p> 
  
 
         </div> 
         <div class="col-4">
-            <h2>Location</h2>
-            <p>Come check us out at our 2 locations around New York City! One spot in Manhattin and a new spot we just opened in the East Villages! Be sure to stop by for a great place to eat!</p>
+            <h2 class="header1">Location</h2>
+            <iframe
+  width="85%"
+
+  height="200"
+  style="border:0;"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094287!2d144.95373631531674!3d-37.81627977975181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df5c84b3d%3A0x1f9b9a4c9b9b19d1!2sYour%20Shop%20Name!5e0!3m2!1sen!2sus!4v1618407693896!5m2!1sen!2sus" style="margin-left: 20px;">
+</iframe>
+
 
         </div>
         </div>
@@ -259,7 +274,7 @@
 <hr style="border: none; height: .5px; background-color: transparent; margin-top: 20px; margin-bottom: 20px;"> 
 
     <footer>
-        <p>&copy; 2024 The Green Plate | All Rights Reserved</p>
+        <p>&copy; 2025 The Green Plate | All Rights Reserved</p>
         <div class="footer-buttons">
             <button onclick="window.location.href='index.html'">Home</button>
             <button onclick="window.location.href='menu.html'">Menu</button>
