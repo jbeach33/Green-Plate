@@ -129,7 +129,7 @@ s
     border-width: 3px;
     font-size: 40px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 60px;
     transition: background-color 0.3s, color 0.3s;
 
 }
